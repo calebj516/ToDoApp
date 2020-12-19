@@ -11,7 +11,6 @@ clearBtn.addEventListener("click", clearList);
 // functions below
 
 function addToDoItem() {
-  //   console.log(textInput.value);
   let item = document.getElementById("todolist");
   // create list item
   let li = document.createElement("li");
@@ -33,8 +32,6 @@ function addToDoItem() {
     strikeThrough(id);
   });
 
-  //li.appendChild(textNode);
-  //li.appendChild(cancelBtn);
   li.append(textNode, cancelBtn, doneBtn);
   ol.appendChild(li);
 }
@@ -45,6 +42,7 @@ function removeListItem(id) {
 }
 
 function clearList() {
+  // remove all list items
   while (ol.firstChild) {
     ol.removeChild(ol.firstChild);
   }
