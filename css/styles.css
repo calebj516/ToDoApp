@@ -1,0 +1,18 @@
+.inputArea {
+  border-style: solid;
+  border-width: thick;
+  border-radius: 12px;
+  padding-top: 12px;
+  padding: 12px;
+  margin: auto;
+  width: 50%;
+}
+
+#listOfItems {
+  margin: auto;
+  width: 50%;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
